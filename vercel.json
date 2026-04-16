@@ -1,0 +1,14 @@
+{
+  "buildCommand": "cd client && npm run build",
+  "outputDirectory": "client/dist",
+  "devCommand": "cd client && npm run dev",
+  "env": {
+    "VITE_SUPABASE_URL": "@vite_supabase_url",
+    "VITE_SUPABASE_ANON_KEY": "@vite_supabase_anon_key"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}

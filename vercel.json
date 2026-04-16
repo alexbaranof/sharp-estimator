@@ -1,6 +1,4 @@
 {
-  "root": "client",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "devCommand": "npm run dev"
+  "buildCommand": "cd client && npm install && npm run build",
+  "outputDirectory": "client/dist"
 }
